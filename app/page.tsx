@@ -1,11 +1,9 @@
-import { LoginGoogleButton } from "@/components/button-google";
+import Homepage from "./homepage/page";
 
 export default function Home() {
   return (
     <>
-      <div className="flex justify-center items-center h-screen bg-gray-100">
-        <LoginGoogleButton />
-      </div>
+        <Homepage />
     </>
   );
 }
